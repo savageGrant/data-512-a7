@@ -63,6 +63,7 @@ To explore the impact of COVID-19 on domestic violence in Atlanta, Georgia.
 |infected              | The total number of infected population, assuming a 14 day infection.                                                 |
 
 - The dataframe "ts" is used to plot domestic violence cases was created using the dataset I created from the APD reports and has the following format:
+
 |Column          | Description                                                                   |
 |----------------|-------------------------------------------------------------------------------|
 |Date            | The date the data was captured                                                |
