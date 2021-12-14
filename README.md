@@ -25,7 +25,9 @@ data-512-a7
 ```
 
 ## Goal of the project
-To explore the impact of COVID-19 on domestic violence in Atlanta, Georgia.
+To explore the impact of COVID-19 on domestic violence in Atlanta, Georgia. 
+
+I focus on how the rate of reported domestic violence cases was influenced by the pandemic, and the potential impact the vaccine had on reported cases. 
 
 ## Known Limitations
 The APD published a weekly PDF which contains the count of domestic violence cases for the week as well as a year-to-date total and the previous year’s year-to-date total. The year-to-date total does not always align with the sum of the weekly count of domestic violence cases for the year, and the previous year’s year-to-date (YTD) totals can be very different than the year-to-date totals achieved by opening up the pdf for the week of that year. For example, if I compare week 40 of 2020’s pdfs (CS-2020-40.pdf) and week 40 of 2019’s pdfs (CS-2019-40.pdf) I will see that the YTD cases reported for 2019 in CS-2020-40.pdf is 324 while the YTD cases reported for 2019 in CS-2019-40.pdf is 329. To remain consistent, I use the reported case counts from the pdfs that were released at the time the cases were first reported, so I’m using CS-2019-40 as the true count of domestic violence cases in week 40 of 2019 to populate my domestic_crime_data.csv.
