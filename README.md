@@ -14,6 +14,7 @@ data-512-a7
 |   A5 Extension Plan.pdf
 |   A6 Presentation.pptx
 |   A7 Notebook.ipynb
+|   A7 Report.pdf
 |   domestic_crime_data.csv
 |
 └───images
@@ -27,7 +28,7 @@ data-512-a7
 To explore the impact of COVID-19 on domestic violence in Atlanta, Georgia.
 
 ## Known Limitations
-
+The APD published a weekly PDF which contains the count of domestic violence cases for the week as well as a year-to-date total and the previous year’s year-to-date total. The year-to-date total does not always align with the sum of the weekly count of domestic violence cases for the year, and the previous year’s year-to-date (YTD) totals can be very different than the year-to-date totals achieved by opening up the pdf for the week of that year. For example, if I compare week 40 of 2020’s pdfs (CS-2020-40.pdf) and week 40 of 2019’s pdfs (CS-2019-40.pdf) I will see that the YTD cases reported for 2019 in CS-2020-40.pdf is 324 while the YTD cases reported for 2019 in CS-2019-40.pdf is 329. To remain consistent, I use the reported case counts from the pdfs that were released at the time the cases were first reported, so I’m using CS-2019-40 as the true count of domestic violence cases in week 40 of 2019 to populate my domestic_crime_data.csv.
 ## Data Sources and Description
 
 - [Kaggle repository of Johns Hopkins University COVID-19 data](https://www.kaggle.com/antgoldbloom/covid19-data-from-john-hopkins-university?select=RAW_us_confirmed_cases.csv): COVID-19 total case number by day by county.
